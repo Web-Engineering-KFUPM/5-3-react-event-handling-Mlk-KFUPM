@@ -32,7 +32,6 @@ export default function TaskApp() {
             if (e.key === "Enter") handleSubmit();
           }}
         />
-        <p>{text}</p>
         <button className="btn btn--primary" onClick={handleSubmit}>
           Submit
         </button>
